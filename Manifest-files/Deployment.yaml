@@ -4,7 +4,7 @@ metadata:
   name: raja-deploy
   namespace: default
 spec:
-   replicas: 3
+   replicas: 6
    selector:
      matchLabels:
        app: nginx
@@ -18,5 +18,6 @@ spec:
            image: nginx
 
   
+
 
 
